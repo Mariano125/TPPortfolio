@@ -28,6 +28,28 @@ body{
     
 }
 
+@media (max-width: 1250px) {
+    .contenedor_nav {
+    
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        
+    }
+}
+
+@media (max-width: 610px) {
+    .contenedor_nav {
+    
+        width: 100%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+        
+    }
+}
+
 .logo {   
     font-size: 2rem; 
 }
@@ -43,37 +65,74 @@ body{
     margin-top: 1rem;
 }
 
+/*banner*/
 
 #banner{
     background-color: #ffbf00;
+    
+    
 }
 
 .conteiner1{
     width: 70%;
     margin: 0 auto;
-    
 }
+
 
 .info {
     display: flex;
     height: 60rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;   
+}
+
+@media (max-width: 1250px) {
+    .info {
+        display: block;
+        height: auto;
+        padding-bottom: 10rem;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #ffbf00;
+    }
+    .foto {
+        display: block;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        
+        
+             
+    }
+    
+}
+
+@media (max-width: 610px) {
+    .conteiner1{
+        width: 100%;
+        margin: 0 auto;
+        background-color: #ffbf00;
+    }
     
 }
 
 img{
-   width: 37rem;
-   height: 37rem;  
-}
+    width: 37rem;
+    height: 37rem;  
+ }
+
 
 .foto {
     display: block;
-    
     border-radius: 50%;
-    border: solid 4px white;
-       
+    
+    margin-top: 3rem;
+    
+    
+         
 }
+
 
 .info_perso{
     padding-left: 2.5rem;
@@ -116,14 +175,15 @@ img{
 
 .bgc3{
     background-color: rgb(236, 230, 223);
-    height: 40rem;
+    height: 60rem;
+    
 }
 
 .conteiner2{
     width: 70%;
     margin: 0 auto;
+    
 }
-
 
 .parte_sup{
     
@@ -149,6 +209,34 @@ img{
 .contInfo1{
     display: flex;
     justify-content: space-between;   
+}
+
+@media (max-width: 610px) {
+    .conteiner2{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+}
+
+@media (max-width: 1250px) {
+    .contInfo1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;   
+    }
+    .bgc3{
+        background-color: rgb(236, 230, 223);
+        height: auto;
+        padding-bottom: 10rem;
+        
+    }
+    .info_exp{
+        margin-top: 5rem;
+        text-align: center;
+    }
 }
 
 .info_2{
@@ -179,6 +267,7 @@ img{
 }
 
 
+/*seccion3 */
 
 .conteiner3{
     
@@ -193,6 +282,32 @@ img{
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 10rem;
     padding: 3rem;
+}
+
+@media (max-width: 1250px) {
+    .servicio {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10rem;
+        padding: 3rem;
+    }
+    
+}
+
+@media (max-width: 610px) {
+    .servicio {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 10rem;
+        padding: 3rem;
+    }
+    
 }
 
 /*seccion 4*/
@@ -212,6 +327,30 @@ img{
     display: flex;
     justify-content: space-between;
     padding-bottom: 5rem;
+}
+
+@media (max-width: 1250px) {
+    .aside{
+    
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 610px) {
+    .aside{
+    
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 5rem;
+    }
 }
 
 .aside_stile{
@@ -251,8 +390,33 @@ img{
     justify-content: space-between;
 }
 
+@media (max-width: 1250px) {
+    .bgc{
+        width: 70%;
+        margin: 0 auto; 
+        text-align: center;
+    }
+    .prog_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+    }
+}
 
-
+@media (max-width: 610px) {
+    .bgc{
+        width: 100%;
+        margin: 0 auto; 
+        text-align: center;
+    }
+    .prog_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+    }
+}
 
 .bar{
     width: 40rem;
@@ -301,6 +465,28 @@ progress[value]::-webkit-progress-value {
     
   }
 
+  @media (max-width:1250px ) {
+    .grupo_img{ 
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        
+      }
+  }
+
+  @media (max-width:610px ) {
+    .grupo_img{ 
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        
+      }
+  }
+
   .imgale{
     width: 100%;
     height: 35rem;
@@ -326,6 +512,7 @@ progress[value]::-webkit-progress-value {
     text-align: start;
 }
 
+
 .grupo_cont svg{
 margin-top: 15px;
 }
@@ -338,6 +525,53 @@ margin-top: 15px;
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 1250px) {
+    .grupo_form{
+        
+        
+        margin: 0rem auto;
+        padding-top: 10rem;
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+    .seccion7{
+    
+        background-color:#ffbf00;
+        height: auto;
+        padding-bottom: 10rem;
+        
+    }
+    .grupo_cont{
+        width: 100%;
+        line-height: 2.3;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+@media (max-width: 610px) {
+    .grupo_form{
+        width: 100%;
+        margin: 10rem auto;
+        padding-top: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .grupo_cont{
+        width: 50%;
+        line-height: 2.3;
+        text-align: center;
+    }
+}
+
 
 .grupo_form h1{
     font-size: 5rem;
@@ -390,6 +624,8 @@ margin-top: 15px;
     padding: 40px 0;
     width: 70%;
 }
+
+
 
 .grupo_f h4{
     color: white;
