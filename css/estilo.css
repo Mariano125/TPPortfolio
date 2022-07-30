@@ -22,6 +22,8 @@ body{
     margin-top: 49px;
 }
 
+
+
 .bars_menu{
     
     width: 25px;
@@ -45,7 +47,7 @@ body{
 
 
 .contenedor_nav {
-    min-width: 470px;
+    
     width: 100%;
     padding-right: 15%;
     padding-left: 15%;
@@ -79,7 +81,7 @@ body{
     top: 0;
     left: 0;
     background-color: rgb(37, 32, 32);
-    width: 63%;
+    width: 55%;
     height: 100vh;
     z-index: 1;
     text-align: center;
@@ -115,6 +117,18 @@ body{
     transform: translate(-2000px);
 }
 
+.moon:hover{
+    cursor: pointer;
+    
+}
+
+.moon:active{
+    background-color: #ffbf00;
+    border-radius: 50%; 
+}
+    
+
+
 @media (max-width: 1250px) {
     .contenedor_nav {
     
@@ -143,13 +157,18 @@ body{
     
 }
 
+.logo {   
+    font-size: 2rem;
+    
+}
+
 @media (min-width:1250px ) {
     .acti{
         position: fixed;
         top: 0;
         left: 0;
         background-color: rgb(37, 32, 32);
-        width: 60%;
+        width: 40%;
         height: 100vh;
         z-index: 1;
         text-align: center;
@@ -176,13 +195,15 @@ body{
         
     }
 
+    .logo {   
+        padding-top: 5px;
+        font-size: 1.8rem;
+        
+    }
     
 }
 
-.logo {   
-    font-size: 2rem;
-    
-}
+
 
 .navegacion_a {
     padding: 0 10px;
@@ -249,7 +270,7 @@ body{
 
 @media (max-width: 610px) {
     .conteiner1{
-        min-width: 470px;
+        
         width: 100%;
         margin: 0 auto;
         
@@ -275,15 +296,8 @@ img{
     border: solid 5px white;
     
     display: block;
-    border-radius: 50%;
- 
-    
-    
-         
+    border-radius: 50%;      
 }
-
-
-
 
 
 .info_perso h1 {
@@ -323,8 +337,13 @@ img{
 .bgc3{
     background-color: rgb(236, 230, 223);
     height: 60rem;
-    
 }
+
+.noche{
+    color: white;
+    background-color: rgb(37, 34, 34) !important;
+}
+
 
 .conteiner2{
     width: 70%;
@@ -358,6 +377,12 @@ img{
     justify-content: space-between;   
 }
 
+.parte_infe{
+    display: flex;
+    padding-top: 5rem;
+    justify-content: space-between;
+}
+
 @media (max-width: 610px) {
     .conteiner2{
         width: 100%;
@@ -367,6 +392,7 @@ img{
 }
 
 @media (max-width: 1250px) {
+
     .contInfo1{
         display: flex;
         text-align: center;
@@ -383,6 +409,14 @@ img{
     .info_exp{
         margin-top: 5rem;
         text-align: center;
+    }
+
+    .parte_infe{
+        display: grid;
+        padding-top: 5rem;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px; 
     }
 }
 
@@ -570,9 +604,10 @@ img{
     width: 40rem;
 }
 
+
+
 progress[value]{
 appearance: none;
-  -webkit-appearance: none;
 }
 progress[value]::-webkit-progress-value {
     background-color: #ffbf00;
@@ -588,12 +623,15 @@ progress[value]::-webkit-progress-value {
   }
   .centrar_btn{
     padding-bottom: 5rem;
-    margin: 40px 0;
+    margin-top: 40px;
     text-align: center;
   }
 
   /* seccion 6 */
 
+  .cont6{
+    padding-bottom: 10rem;
+  }
  
   .nav{
     
@@ -668,7 +706,7 @@ margin-top: 15px;
 
 .grupo_form{
     width: 70%;
-    margin: 10rem auto;
+    margin: 0 auto;
     padding-top: 10rem;
     display: flex;
     justify-content: space-between;
@@ -706,7 +744,7 @@ margin-top: 15px;
     .grupo_form{
         overflow: hidden;
         width: 100%;
-        margin: 10rem auto;
+        margin: 0rem auto;
         padding-top: 10rem;
         display: flex;
         justify-content: space-between;
@@ -764,7 +802,20 @@ margin-top: 15px;
     color: white;
     background-color: black;
     padding: 1rem;
+}
 
+.btn4:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 610px){
+    .btn4{
+        width: 100%;
+        color: white;
+        background-color: black;
+        padding: 1rem;
+    
+    }
 }
 
 /*footer*/
